@@ -17,7 +17,8 @@ ul>li>img{
 .navbar-toggler:focus {
     /*Below line will remove the border from the icon
     I have used bootstrap icon here */
-    /* This will only remove the shadow effect */
+    /* This will only remove the 
+    dow effect */
     /* Border is still there */
 
     /* if you don't want any border then set the property equals to zero */

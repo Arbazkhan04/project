@@ -9,7 +9,7 @@
         <button class="button-1" role="button"><span class="text">Explore</span><span>Products</span></button>
 
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-3 col-lg-4 col-sm-12">
         <div class="banner-img" data-aos="fade-left" data-aos-duration="3000"></div>
       </div>
     </div>
@@ -20,9 +20,9 @@
 <!-- updated  -->
 <div class="container">
   <div class="row">
-    <div class="col-md-4 d-flex justify-content-center">
+    <div class="col-md-4  d-flex justify-content-center">
       <div class="my-2">
-        <div class="card shadow" style="width: 25rem;">
+        <div class="card shadow">
           <div class="card-header bgcolor text-white text-muted">
             <h3>Catagories</h3>
           </div>
@@ -67,10 +67,10 @@
         </div>
       </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 d-flex justify-content-center">
       <!---------------------- List-View -------------------------->
       <div class="row">
-        <div class="col-md-4 d-flex justify-content-center" *ngFor="let data of showAllProduct | paginate
+        <div class="col-md-6" *ngFor="let data of showAllProduct | paginate
           : {
               itemsPerPage: tableSize,
               currentPage: page,
@@ -79,8 +79,8 @@
       let i = index">
           <!-- [hidden]="show===false put in my-3 -->
           <div class="my-3">
-            <div class="col ">
-              <div class="card shadow" style="width: 18rem;">
+           
+              <div class="card shadow">
                 <div class="card-header bgcolor">
                 </div>
                 <ul class="list-group list-group-flush">
@@ -96,7 +96,7 @@
                       class="btn btn-primary w-100">CheckOut</a></li>
                 </ul>
               </div>
-            </div>
+           
           </div>
         </div>
       </div>
