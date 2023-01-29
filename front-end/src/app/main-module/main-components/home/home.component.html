@@ -18,9 +18,9 @@
 
 
 <!-- updated  -->
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-md-4  d-flex justify-content-center">
+    <div class="col-md-4 d-flex justify-content-center">
       <div class="my-2">
         <div class="card shadow">
           <div class="card-header bgcolor text-white text-muted">
@@ -70,7 +70,7 @@
     <div class="col-md-8 d-flex justify-content-center">
       <!---------------------- List-View -------------------------->
       <div class="row">
-        <div class="col-md-6" *ngFor="let data of showAllProduct | paginate
+        <div class="col-md-6 col-lg-4" *ngFor="let data of showAllProduct | paginate
           : {
               itemsPerPage: tableSize,
               currentPage: page,
