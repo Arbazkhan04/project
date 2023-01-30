@@ -1,7 +1,7 @@
 <div class="bg-img">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+      <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
         <h1 class="text-white banner-heading">Mens
           FootWear <span style="color: rgb(38, 0, 255);">Shoes</span> </h1>
         <h3 class="banner-heading2">Winter Fashion</h3>
@@ -20,7 +20,7 @@
 <!-- updated  -->
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-4 d-flex justify-content-center">
+    <div class="col-md-4 col-sm-6 d-flex justify-content-center">
       <div class="my-2">
         <div class="card shadow">
           <div class="card-header bgcolor text-white text-muted">
@@ -67,10 +67,10 @@
         </div>
       </div>
     </div>
-    <div class="col-md-8 d-flex justify-content-center">
+    <div class="col-md-8 col-sm-6  d-flex justify-content-center">
       <!---------------------- List-View -------------------------->
       <div class="row">
-        <div class="col-md-6 col-lg-4" *ngFor="let data of showAllProduct | paginate
+        <div class="col-md-6 col-lg-4 col-sm-12 d-flex justify-content-center" *ngFor="let data of showAllProduct | paginate
           : {
               itemsPerPage: tableSize,
               currentPage: page,
